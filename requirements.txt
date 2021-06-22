@@ -1,0 +1,5 @@
+numpy
+fake_headers
+pandas
+openpyxl
+requests
