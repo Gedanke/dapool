@@ -6,7 +6,7 @@
 """
 
 """
-
+该文件存放当前目录下所有文件内的接口地址，dataFrame 的表头，参数等等
 """
 interface_dict = {
     "get_marco_cmlrd": "http://114.115.232.154:8080/handler/download.ashx",

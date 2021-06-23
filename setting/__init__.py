@@ -5,6 +5,10 @@
 @desc:
 """
 
+"""
+全局配置文件
+"""
+
 from fake_headers import Headers
 
 header = Headers(
