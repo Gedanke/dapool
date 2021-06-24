@@ -4,3 +4,7 @@
 @time: 2021/6/22
 @desc:
 """
+
+from params import *
+
+print(a)
