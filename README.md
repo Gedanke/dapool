@@ -8,8 +8,6 @@
 
 增加数据源，完善现有数据和数据接口，重写爬虫方法，增加可视化结果，免去手动增加 cookie 功能等
 
-本项目以个人学习为主，无法为其提供稳定的支持，若想获得稳定体验可以使用 [gopup](https://github.com/justinzm/gopup)
-
 # 结构
 
 * [datapool](datapool/)

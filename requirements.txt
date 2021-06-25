@@ -3,3 +3,4 @@ fake_headers
 pandas
 openpyxl
 requests
+xlrd
