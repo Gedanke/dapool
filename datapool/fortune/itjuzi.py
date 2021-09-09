@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-import time
 import pandas
 import requests
 from params import *
@@ -9,6 +8,9 @@ from fake_headers import Headers
 
 """
 https://www.itjuzi.com/deathCompany
+https://jfds-1252952517.cos.ap-chengdu.myqcloud.com/akshare/data/data_juzi/nicorn_company.csv
+https://jfds-1252952517.cos.ap-chengdu.myqcloud.com/akshare/data/data_juzi/maxima.csv
+https://www.itjuzi.com/api/maxima/?page=1&com_prov=&cat_id=&order_id=1&com_name=
 """
 
 header = Headers(
@@ -24,7 +26,6 @@ def get_death_company() -> pandas.DataFrame:
     倒闭公司
     https://www.itjuzi.com/deathCompany
     :return:
-    data
     """
     try:
         temp_data = pandas.read_csv(interface_dict["get_death_company"], index_col=0)
@@ -56,7 +57,6 @@ def get_nicorn_company(indicator="部分") -> pandas.DataFrame:
     独角兽公司
     https://jfds-1252952517.cos.ap-chengdu.myqcloud.com/akshare/data/data_juzi/nicorn_company.csv
     :return:
-    data
     """
     try:
         all_data = pandas.read_csv(interface_dict["get_nicorn_company"], index_col=0, )

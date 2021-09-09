@@ -23,9 +23,9 @@ headers = header.generate()
 def get_franchise_china() -> pandas.DataFrame:
     """
     中国-商业特许经营信息管理
+    中国-商业特许经营的所有企业
     http://txjy.syggs.mofcom.gov.cn/
     :return:
-    中国-商业特许经营的所有企业
     """
     outer_data = pandas.read_csv(
         interface_dict["get_franchise_china_file"], encoding="gbk", index_col=0
