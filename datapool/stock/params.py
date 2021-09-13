@@ -13,6 +13,5 @@ headers = header.generate()
 
 """interface_dict"""
 interface_dict = {
-    "get_fund_etf_category_sina":"http://vip.stock.finance.sina.com.cn/quotes_service/api/jsonp.php/IO.XSRV2.CallbackList['da_yPT46_Ll7K6WD']/Market_Center.getHQNodeDataSimple"
-
+    "get_fund_etf_category_sina": "http://vip.stock.finance.sina.com.cn/quotes_service/api/jsonp.php/IO.XSRV2.CallbackList['da_yPT46_Ll7K6WD']/Market_Center.getHQNodeDataSimple"
 }
