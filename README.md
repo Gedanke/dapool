@@ -8,24 +8,5 @@
 
 增加数据源，完善现有数据和数据接口，重写爬虫方法，增加可视化结果，免去手动增加 cookie 功能等
 
-# 结构
-
-* [datapool](datapool/)
-    * [economic](datapool/economic/)
-        * [china](datapool/economic/china/)
-    * [index](datapool/index)
-    * ...
-* [resource](resource/)
-    * [data](resource/data)
-        * ...
-    * [images](resource/images)
-        * ...
-* [setting](setting/)
-* [test](test/)
-* [README](README.md)
-* [requirements](requirements.txt)
-
-# data pool
-
-
+---
 
